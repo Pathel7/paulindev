@@ -1,0 +1,369 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="développement"/>
+    <meta name="author" content="web développement"/>
+    <title>paulindeveloppement</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <!--        <link href="css/styles.css" rel="stylesheet" />-->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link href="{% static 'boots/css/bootstrap-icons/bootstrap-icons.css' %} " rel="stylesheet"/>
+    <link href="{% static 'boots/css/boxicons/css/boxicons.min.css' %}" rel="stylesheet"/>
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav style="background-color: #072957;" class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container px-4 px-lg-5">
+        <a style="color: yellow;" class="navbar-brand text-center" href="#page-top">PAULINDEVELOPPEMENT</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#signup">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+        <div class="d-flex justify-content-center">
+            <div class="text-center">
+                <h1 class="mx-auto my-0 text-muted">Bienvenue</h1><br><br>
+                <h3 class="text-white mx-auto mt-2 mb-5">vos <span style="color: yellow;">besoins</span> comptent,
+                    autrement cela ne vaudrait pas la peine</h3>
+                <a class="btn btn-primary" style="color: yellow; background-color: #072957;" href="#about">Allons-y</a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- About-->
+<section class="about-section text-center" id="about" class="about">
+    <div class="container px-3 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8">
+                <h2 style="color: yellow;" class="pan mb-3">Une passion</h2>
+                <p class="text-white-50">
+                    Aussi loin que je me souvienne, j'ai toujours été fasciné par l'informatique en général et la
+                    programmation en particulier, par tout ce qui a été
+                    réalisé grace à l'informatique et par tout ce qui est réalisable grâce à cet outil, omnipresent
+                    dans la quasi-totalité des domaines de la vie. <br>
+                    Mes premiers pas dans la programmation, c'est fut avec un vieux langage qui n'est plus à la mode,
+                    le QBasic (ouais ce n'est pas une blague), le QBasic m'a ainsi aidé à comprendre très vite et
+                    appliquer
+                    les notions d'algorithmique <br> ayant suffisamment des connaissances sur la logique de
+                    programmation
+                    c'est avec aisance pour ne pas dire facilité que je me suis mis à apprendre le python qui est un
+                    langae de haut niveau,
+                    jusqu'aujourd'hui l'aventure continue de plus belle. <br><br>
+                    <span style="font-size: smaller;">Au-delà de mes compétences actuelles et futures,
+                                je prefère me définir plutot comme ingénieur informaticien, parce que quel que soit le domaine informatique
+                                dans lequel on évolue, on se doit d'avoir certaines compétences en plus pour pouvoir répondre efficacement
+                                aux besoins des clients</span><br><br>
+                <hr>
+                <div class="text-white">
+                    <h2 style="color: yellow;" class="pan">le développement web</h2>
+                    <div class="card-body text-white-50">
+                        les métiers liés au web sont en perpetuel évolution dépuis les trois dernières décenies,
+                        et demande de plus en plus de competences, car cela va actuellement de la création de pages en
+                        texte brut à des
+                        applications web complexes, applications de chat et applications commerciales électroniques, je
+                        me suis lancé dans ce domaine
+                        notamment avec
+                        <span style="color: rgb(187, 187, 36);">le html,</span>
+                        <span style="color: rgb(187, 187, 36);">le css(bootstrap),</span>
+                        <span style="color: rgb(187, 187, 36);">le python/django,</span>
+                        <span style="color: rgb(187, 187, 36);">le Javascript,</span><br><br>
+                        <span>
+                            Aujourd'hui, grace toujours à cette passion, j'ai assez de connaissances pour concevoir un site web de qualité
+                            répondant aux normes modernes
+                        </span><br><br>
+                    </div>
+                </div>
+                </p>
+            </div>
+        </div>
+    </div>
+    <img class="img-fluid" src="{% static 'img/yelo.jpg' %}" alt="..."/>
+    </div>
+</section>
+
+<section class="about-section text-center" class="about">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8">
+                <p class="text-white-50">
+                    <br>
+                <hr>
+                <div class="text-white">
+                    <h2 style="color: yellow;" class="pan">le développement cross plate-form</h2>
+                    </h5>
+                    <div class="card-body text-white-50">
+                        de nos jours,on peut concevoir une application mobile de plusieurs manières. La plus
+                        classique est celle qu'on appelle native, qui permet d'utiliser l'intégralité des capacités du
+                        système d'exploitation et d'obtenir de meilleures performances. Cela a comme
+                        désavantage la duplication du code pour la rendre disponible sur
+                        les deux grandes plateformes Android et IOS pour ne citer que ces deux-là. Ceci va donc
+                        augmenter le temps de travail suivant le nombre de plateformes et
+                        va engendrer des coûts supplémentaires pour le développement, mais avec l'apparition du
+                        développement dit cross-platform
+                        grâce à des frameworks (comme flutter avec le langage dart), on a su
+                        répondre à ce problème en permettant aux développeurs de réaliser des applications
+                        déployables sur le Play Store de Google et l'App Store d'Apple, tout en ayant un seul
+                        code source. <br><br><br>
+                        dans ce type de développement, avec le temps je me suis familiarisé avec <span
+                            style="color: rgb(187, 187, 36);">flutter</span> et son langage de programmation Dart
+
+                    </div>
+                </div>
+                </p>
+
+            </div>
+        </div>
+        <img class="img-fluid" src="{% static 'img/images.png' %}" alt="..."/>
+    </div>
+</section>
+
+
+<section class="about-section text-center" class="about">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8">
+                <p class="text-white-50">
+                    <br>
+                <hr>
+                <div class="text-white">
+                    <h2 style="color: yellow;" class="pan">Un peu de design</h2>
+                    </h5>
+                    <div class="card-body text-white-50">
+                        En concevant des sites web, des applications ou n'importe quel logiciel, il y a plusieurs
+                        parametres à prendre en compte
+                        l'un d'eux est le design, il ne s'agit pas tout simplement de créer du contenu, mais il faudrait
+                        aussi rendre ce contenu
+                        visuellement attrayant pour les potentiels visiteurs, tel est sans conteste le travail d'un
+                        webdesigner <br>
+                        dans mon parcours de developpeur j'ai eu à travail avec les logiciels de la suite Adobe <span
+                            style="color: rgb(187, 187, 36);">photoshop</span> et <span
+                            style="color: rgb(187, 187, 36);">illustrator</span>
+                        pour les maquettes de différents projets, mais il faut bien plus que la maitrise des outils de
+                        design pour etre designer,
+                        c'est une réalité auquelle j'ai du faire face, mais avec un peu de travail, j'arrive à créer du
+                        contenu visuel acceptable,
+                        c'est donc aussi une de mes passions, la recherche de la beauté en toute chose
+                    </div>
+                </div>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Projects-->
+<section class="projects-section bg-light" id="projects">
+    <div class="container px-4 px-lg-5">
+        <!-- Featured Project Row-->
+        <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+            <div class="col-xl-8 col-lg-7">
+                <img class="img-fluid mb-3 mb-lg-0 p-5" src="{% static 'img/mp.png' %}" alt="..."/>
+                <img class="img-fluid mb-3 mb-lg-0" src="{% static 'img/d.png' %}" alt="..."/>
+            </div>
+            <div class="col-xl-4 col-lg-5">
+                <div class="featured-text text-center text-lg-left">
+                    <h4>logo lokete</h4>
+                    <p class="text-black-50 mb-0">lokete, Inc est une entreprise informatique internationale qui aide
+                        les entreprises à accroitre leur
+                        productivité en leur proposant des services professionnels dans divers domaines de
+                        l'informatique,
+                        l'entreprise propose aussi des formations dans plusieurs branches de l'informatique avec la
+                        possibilité de trouver
+                        un emploi dès la fin de la formation
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Project One Row-->
+        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+            <div class="col-lg-6"><img class="img-fluid" src="{% static 'img/m7.jpg' %}" alt="..."/></div>
+            <div class="col-lg-6">
+                <div class="text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-left">
+                            <h4>Des applis mobiles</h4>
+                            <p class="mb-0 text-black-50">Grâce au langage dart et à son framework flutter, il y a
+                                d'énormes possibilités de créer des belles applications
+                                répondant aux tendances actuelles, mais pas que, parce qu'avec la meme base de code, on
+                                peut créer aussi des applis pour tout type de plateformes.</p>
+                            <hr class="d-none d-lg-block mb-0 ms-0"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project Two Row-->
+        <div class="row gx-0 justify-content-center">
+            <div class="col-lg-6"><img class="img-fluid" src="{% static 'img/hy.png' %}" alt="..."/></div>
+            <div class="col-lg-6 order-lg-first">
+                <div class="bg-grey text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-right">
+                            <h4 class="text-black">Le quiz</h4>
+                            <p class="mb-0 text-black-50">un jeu de quiz fait avec du css et du javascript pour mes
+                                élèves enfin de tester leur niveau en culture générale et les aider à préparer leurs
+                                tournois interscolaires</p>
+                            <hr class="d-none d-lg-block mb-0 me-0"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Signup-->
+<section class="signup-section" id="signup">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-md-10 col-lg-8 mx-auto text-center">
+                <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                <h2 style="color: yellow;" class="pan  mb-5">Laissez un message!</h2>
+
+                <form method="post" enctype="multipart/form-data" class="form-signup" id="contactForm">
+                    {% csrf_token %}
+                    <!-- Email address input-->
+                    <div class="row input-group-newsletter">
+                        <div class="col">
+                            {% if form.subject.errors %}
+                            {% for error in form.subject.errors %}
+                            <p class="text-danger"><strong>{{ error }}</strong></p>
+                            {% endfor %}
+                            {% endif %}
+                            <div class="form-group">
+                                {% for field in form %}
+                                    <div class="fw-bold" style="color:#041935;">
+                                        {{ field.label_tag }}
+                                    </div>
+                                    <div>
+                                        {{ field }}
+                                    </div><br>
+                                    {% if field.help_text %}
+                                    <p class="help">{{ field.help_text }}</p>
+                                    {% endif %}
+                                    {% if field.errors %}
+                                        {% for error in field.errors %}
+                                        <p class="text-danger"><strong>{{ error }}</strong></p>
+                                        {% endfor %}
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                            <div>
+                                <button style="color: yellow; background-color: #072957;" class="btn btn-primary"
+                                        id="submitButton" type="submit">Envoyer!
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="invalid-feedback mt-2">vous devez entrez un
+                        email.
+                    </div>
+                    <div class="invalid-feedback mt-2">l'email n'est pas valide.
+                    </div>
+
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center mb-3 mt-2 text-white">
+                            <div class="fw-bolder">merci pour votre message!</div>
+                        </div>
+                    </div>
+
+                    <div class="d-none" id="submitErrorMessage">
+                        <div class="text-center text-danger mb-3 mt-2">vous avez mal renseigné le champs!</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact-->
+<section class="contact-section">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                        <h4 class="text-uppercase m-0">PAULIN</h4>
+                        <hr class="my-4 mx-auto"/>
+                        <div class="small text-black-50">
+                            Le professionalisme <br>
+                            au service du réel
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-envelope text-primary mb-2"></i>
+                        <h4 class="text-uppercase m-0">Email</h4>
+                        <hr class="my-4 mx-auto"/>
+                        <div class="small text-black-50"><a class="text-decoration-none"
+                                                            href="mailto:paulinmp50@gmail.com">paulinmp50@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                        <h4 class="text-uppercase m-0">Phone</h4>
+                        <hr class="my-4 mx-auto"/>
+                        <div class="small text-black-50"><a class="text-decoration-none" href="callto:+243 842 085 689">+243
+                            842 085 689</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social d-flex justify-content-center">
+            <div class="social-links mt-3">
+                <a href="https://www.twitter.com/@paulin_mpolesha" class="twitter p-3"><i
+                        class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100089086129287" class="facebook p-3"><i
+                        class="bx bxl-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/paulin-mpolesha-25b776217" class="linkedin p-3"><i
+                        class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer-->
+<footer class="footer small text-center text-white-50">
+    <div class="container px-4 px-lg-5">&copy Copyright {% now 'Y' %} &middot; paulindeveloppement</div>
+</footer>
+<!-- Bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="{% static 'css/scripts.js' %}"></script>
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>
+
+
+
